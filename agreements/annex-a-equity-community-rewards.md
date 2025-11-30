@@ -1,41 +1,41 @@
 # ANNEX A  
 **Equity & Community Rewards Policy**  
-Guardian Override — Version 1.2  
+Guardian Override — Version 1.0  
 
 *Non‑Binding, Illustrative, Advisory Framework for Contributor Recognition and Rewards*
 
 ---
 
-## 0. Purpose & Scope
-1. This Annex outlines Guardian Override’s framework for equity and community rewards.  
-2. It is non‑binding, illustrative, and does not grant rights or create entitlements. All incentives require separate written agreements and formal Board approval.  
-3. Updates shall be versioned, archived immutably, and contributors notified within 7 days.  
-4. Guardian Override values recognition, fairness, transparency, and legal compliance.  
-5. **Incorporation Clause:** This Annex is subordinate to the Master Enforcement Index (MEI v1.2) and the Contributor Agreement; MEI hierarchy prevails in case of conflict.  
+## A.0 Purpose & Scope
+- **A.0.1** This Annex outlines Guardian Override’s framework for equity and community rewards.  
+- **A.0.2** It is non‑binding, illustrative, and does not grant rights or create entitlements. All incentives require separate written agreements and formal Board approval.  
+- **A.0.3** Updates shall be versioned, archived immutably, and contributors notified within 7 days.  
+- **A.0.4** Guardian Override values recognition, fairness, transparency, and legal compliance.  
+- **A.0.5 Incorporation Clause:** This Annex is subordinate to the Master Enforcement Index (MEI v1.2) and the Contributor Agreement; MEI hierarchy prevails in case of conflict.  
 
 ---
 
-## 1. Contributor Definitions
+## A.1 Contributor Definitions
 
-### 1.1 Early Contributors
+### A.1.1 Early Contributors
 - Identified by the Board using objective performance and time‑based criteria.  
 - Contributions during the project’s initial phase (e.g., pre‑launch code, strategic planning, foundational community building).  
 - Recognition based on documented contributions and Board approval.  
 
-### 1.2 Core Contributors
+### A.1.2 Core Contributors
 - Individuals making significant, ongoing contributions post‑initial phase.  
 - Eligibility determined at Board discretion, based on documented performance metrics and alignment with company goals.  
 - All eligibility requires formal documentation and Board approval.  
 
-### 1.3 Disclaimer on Recognition Classifications
+### A.1.3 Disclaimer on Recognition Classifications
 - Classification does not confer ownership, voting rights, or entitlement to future rewards.  
 - Recognition is illustrative unless formalized in signed agreements.  
 
 ---
 
-## 2. Equity Allocation
+## A.2 Equity Allocation
 
-### 2.1 Early Contributors
+### A.2.1 Early Contributors
 - Up to **1% of fully diluted equity** may be allocated collectively.  
 - Requires:  
   - Formal Equity Incentive Plan (EIP) approved by the Board.  
@@ -44,82 +44,82 @@ Guardian Override — Version 1.2
   - Compliance with securities, tax, and regulatory laws.  
 - Allocation methods (pro‑rata, performance‑weighted, discretionary) must be documented and transparent.  
 
-### 2.2 Core Contributors
+### A.2.2 Core Contributors
 - Considered for performance‑based equity grants at Board discretion.  
 - No guarantee of eligibility.  
 - Grants require signed agreement.  
 - Vesting follows the Equity Incentive Plan.  
 - Performance criteria are objective, transparent, and measurable (e.g., product milestones, quarterly user growth, operational improvements).  
 
-### 2.3 Vesting, Termination & Clawback
+### A.2.3 Vesting, Termination & Clawback
 - Standard vesting applies, subject to termination and Board‑approved clawback provisions.  
 - Early departures may affect vesting; rules defined in individual agreements and EIP.  
 - **Clawback Enforcement:** May be applied in cases of fraud, misconduct, or regulatory non‑compliance; enforcement requires formal Board resolution and documentation in the Equity Incentive Plan.  
 
-### 2.4 Legal Compliance
+### A.2.4 Legal Compliance
 - All equity allocations must comply with applicable securities, tax, and labor laws.  
 
 ---
 
-## 3. Community Rewards (Tokens)
+## A.3 Community Rewards (Tokens)
 
-### 3.1 Non‑Financial Recognition Tokens
+### A.3.1 Non‑Financial Recognition Tokens
 Tokens issued for recognition are:  
 - Non‑transferable  
 - Non‑financial  
 - Not investment instruments  
 - Not redeemable for money or tied to company value  
 
-### 3.2 No Guarantee of Value or Liquidity
+### A.3.2 No Guarantee of Value or Liquidity
 - Tokens do not guarantee appreciation, resale, or liquidity events.  
 
-### 3.3 Governance of Tokens
+### A.3.3 Governance of Tokens
 - Token rules governed under a separate Community Rewards Policy.  
 - Policy may be updated or discontinued at Board discretion.  
 - Community input may be considered, but the Board retains final authority.  
 - Governance includes annual review for alignment with values and compliance.  
 
-### 3.4 Dispute Resolution
+### A.3.4 Dispute Resolution
 - Contributors may appeal allocation decisions via Annex C enforcement procedures.  
 - Appeals may challenge allocation fairness but cannot create entitlement to equity or tokens.  
 
 ---
 
-## 4. Transparency & Reporting
+## A.4 Transparency & Reporting
 
-### 4.1 Voluntary Reporting
+### A.4.1 Voluntary Reporting
 - Guardian Override may publish quarterly summaries of equity and token allocations.  
 
-### 4.2 Content
+### A.4.2 Content
 - Recognition milestones, distribution summaries, and trends.  
 - Anonymized or pseudonymized to protect privacy.  
 - Published in PDF and Registry snapshot formats.  
 - Compliant with applicable laws and GDPR‑like standards.  
 
-### 4.3 Purpose
+### A.4.3 Purpose
 - Reinforce trust, fairness, and community engagement.  
 - Summaries are informational only and do not confer rights or entitlements.  
 
 ---
 
-## 5. Compliance & Legal Safeguards
-- **Board Approval Required:** No allocations are valid without formal Board approval.  
-- **Written Agreements:** All equity and token grants require signed agreements.  
-- **No Implied Rights:** This Annex does not constitute a promise of compensation or equity. Recognition is illustrative and advisory only.  
-- **Alignment:** All allocations and policies must comply with MEI v1.2, Annex C, and Contributor Agreement governance.  
+## A.5 Compliance & Legal Safeguards
+- **A.5.1 Board Approval Required:** No allocations are valid without formal Board approval.  
+- **A.5.2 Written Agreements:** All equity and token grants require signed agreements.  
+- **A.5.3 No Implied Rights:** This Annex does not constitute a promise of compensation or equity. Recognition is illustrative and advisory only.  
+- **A.5.4 Alignment:** All allocations and policies must comply with MEI v1.0, Annex C, and Contributor Agreement governance.  
 
 ---
 
-## 6. Versioning, Updates & Archiving
-- **Publication:** Published in all major repositories and accompanying materials.  
-- **Versioning:** Semantic versioning (e.g., v1.0 → v1.2). Major amendments require click‑through acceptance.  
-- **Notification:** Contributors notified within 7 days via mailing lists, governance portal, and repository announcements.  
-- **Archiving:** All prior versions stored in immutable logs, including PDF, JSON snapshot, and version diff. Logs are publicly accessible to contributors.  
-- **Cross‑References:** References to MEI and other annexes maintained in Appendix A of Annex C and Appendix MEI.0. Persistent IDs (e.g., ANNEX‑E‑2.1‑2025) are used to ensure citation stability.  
+## A.6 Versioning, Updates & Archiving
+- **A.6.1 Publication:** Published in all major repositories and accompanying materials.  
+- **A.6.2 Versioning:** Semantic versioning (e.g., v1.0 → v1.2). Major amendments require click‑through acceptance.  
+- **A.6.3 Notification:** Contributors notified within 7 days via mailing lists, governance portal, and repository announcements.  
+- **A.6.4 Archiving:** All prior versions stored in immutable logs, including PDF, JSON snapshot, and version diff. Logs are publicly accessible to contributors.  
+- **A.6.5 Cross‑References:** References to MEI and other annexes maintained in Appendix A of Annex C and Appendix MEI.0. Persistent IDs (e.g., ANNEX‑E‑2.1‑2025) are used to ensure citation stability.  
 
 ---
 
-## 7. Summary Table of Key Points
+## A.7 Summary Table of Key Points
 
 | Topic        | Key Points                                                                 |
 |--------------|-----------------------------------------------------------------------------|
@@ -135,4 +135,3 @@ Tokens issued for recognition are:
 ## Disclaimer Footer
 This Annex is **illustrative only**. Equity and rewards are subject to separate written agreements and full legal compliance.  
 In case of conflict, the Contributor Agreement and MEI v1.2 prevail.  
-
