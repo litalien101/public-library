@@ -1,3 +1,16 @@
+## 🔒 Mandatory Metadata Block
+This block is **required in every SOP**. It gives auditors and contributors the essential facts at a glance. 
+
+Fill in each line:
+
+- **Version (Required):** Start at v1.0. Update when changes are made (v1.1, v2.0, etc.).  
+- **Effective Date (Required):** The date this SOP goes into effect (YYYY-MM-DD).  
+- **Audience (Required):** Who this SOP is written for (Contributors, Moderators, Founders, Governance Team).  
+- **Linked Annex (Required):** Which annex this SOP connects to (Annex letter + title).  
+- **Status (Required):** Choose **Binding** (must be followed) or **Illustrative** (guidance only).
+
+Example:
+
 [# SOP-XX: [Title of Procedure]
 
 **Version:** v1.0  
@@ -8,67 +21,83 @@
 
 ---
 
-## 1. Purpose
-Briefly explain why this SOP exists and what problem it solves.  
-Example: “This SOP defines the escalation workflow for moderation incidents to ensure fairness and transparency.”
+## 1. Purpose (Required)
+Explain in plain language why this SOP exists.  
+Think of this as the "why" behind the procedure.  
+*Example:* “This SOP explains how to handle security incidents so contributors know exactly what steps to take.”
 
 ---
 
-## 2. Scope
-Define who this SOP applies to and in what situations.  
-Example: “Applies to all moderators handling community conduct violations under Annex D.”
+## 2. Scope (Required)
+Describe who this SOP applies to and in what situations.  
+This is the "when" and "who."  
+*Example:* “Applies to all moderators when reviewing reports of misconduct across Guardian Override platforms.”
 
 ---
 
-## 3. Responsibilities
+## 3. Responsibilities (Optional but Recommended)
+List the roles involved and what each is expected to do.  
 - **Contributors:** [Role-specific duties]  
 - **Moderators:** [Role-specific duties]  
-- **Founders/Governance Team:** [Oversight duties]
+- **Founders/Governance Team:** [Oversight duties]  
 
 ---
 
-## 4. Procedure
-Step-by-step numbered workflow. Keep it clear and actionable.  
-1. **Trigger Event:** Describe when the SOP is activated.  
-2. **Initial Action:** First step taken by the responsible party.  
-3. **Escalation Path:** Who gets notified, how, and within what timeframe.  
-4. **Documentation:** Where records are kept (e.g., GitHub Issues, Consent Log).  
-5. **Resolution:** Define closure criteria.
----
-### Optional workflow diagram
+## 4. Procedure (Required)
+This is the step‑by‑step "how."  
+Write it as a numbered list so anyone can follow it without guessing.  
+
+1. **Trigger Event:** When does this SOP start?  
+2. **Initial Action:** What’s the first step?  
+3. **Escalation Path:** Who gets notified, how, and when?  
+4. **Documentation:** Where is the record kept?  
+5. **Resolution:** How do you know the process is complete?  
+
+### Optional Workflow Diagram
+If the process is complex, add a simple diagram using Mermaid.  
+This helps people see the flow at a glance.
+
 ```mermaid
 flowchart TD
     A[Trigger Event] --> B[Initial Action]
     B --> C{Escalation?}
-    C -- Yes --> D[Notify responsible role]
-    D --> E[Documentation]
+    C -->|Yes| D[Notify Responsible Role]
+    C -->|No| E[Documentation]
+    D --> E
     E --> F[Resolution]
-    C -- No --> F
 ```
+---
+
+## 5. Compliance & Enforcement (Required if Binding)
+Explain what happens if the SOP isn’t followed.
+
+Reference enforcement rules (Annex E or MEI clauses).
+
+State consequences (advisory, restriction, suspension).
+
+Note audit requirements (e.g., “All incidents logged in Annex H”).
+
+## 6. Versioning & Updates (Required)
+Show how this SOP will be kept current.
+
+Change Log: Record updates with date and reason.
+
+Approval: Who must approve changes.
+
+Notification: How contributors will be told about updates.
 
 ---
 
-## 5. Compliance & Enforcement
-- Reference enforcement rubric (Annex E) or MEI clauses.  
-- State consequences for non-compliance.  
-- Note audit requirements (e.g., “All incidents logged in Annex H: Consent Log”).
+## 7. References (Optional)
+List related documents so people can cross‑check.
+
+Annex [Letter] — [Annex Title]
+
+Related SOPs (link them here)
+
+External standards (if relevant)
 
 ---
 
-## 6. Versioning & Updates
-- **Change Log:** Record updates with date and rationale.  
-- **Approval:** Specify who approves changes (Governance Team, Board).  
-- **Notification:** Contributors notified via governance portal within 7 days.
-
----
-
-## 7. References
-- Annex [Letter] — [Annex Title]  
-- Related SOPs (cross-links)  
-- External standards (if applicable)
-
----
-
-## 8. Disclaimer
-State whether this SOP is legally binding or illustrative.  
-Example: “This SOP is binding under Annex F and subject to MEI v1.0.”
+## 8. Disclaimer (Required)
+State clearly whether this SOP is legally binding or just guidance. Example: “This SOP is binding under Annex F and subject to MEI v1.0.”
