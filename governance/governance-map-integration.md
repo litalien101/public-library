@@ -1,3 +1,21 @@
+# Governance Map Integration (Visual)
+
+```mermaid
+graph TD
+    A[Governance Map] --> B[Annex A: Onboarding Framework]
+    A --> C[Annex F: Moderation Playbook]
+    A --> D[Annex H: Security Guidelines]
+
+    B --> B1[SOP-A1: Account Setup Workflow]
+
+    C --> C1[SOP-F1: Escalation Workflow]
+    C --> C2[SOP-F2: Resolution Protocol]
+
+    D --> D1[SOP-H1: Incident Response Workflow]
+```
+
+---
+
 # Governance Map Integration
 
 ## Purpose
@@ -28,21 +46,3 @@ Integrate Standard Operating Procedures (SOPs) directly into the governance map 
 - 👥 **Contributor clarity**: Team members see how their tasks tie into governance annexes.
 - 📈 **Scalability**: Updates flow through the system, reinforcing discipline and resilience.
 - 📚 **Unified documentation**: Governance and SOPs live in one integrated map.
-
----
-
-## Example Structure
-
-```text
-Governance Map
-│
-├── Annex A: Onboarding Framework
-│   └── SOP-A1: Account Setup Workflow
-│
-├── Annex F: Moderation Playbook
-│   └── SOP-F1: Escalation Workflow
-│   └── SOP-F2: Resolution Protocol
-│
-└── Annex H: Security Guidelines
-    └── SOP-H1: Incident Response Workflow
-
