@@ -8,15 +8,25 @@
 
 ---
 
-## Purpose
+## 1. Purpose
 Protect Guardian Override systems and contributors from phishing, credential theft, and security breaches.
 
-## Scope
+---
+
+## 2. Scope
 Applies to moderators, Conduct Officers, and technical teams.
 
 ---
 
-## Workflow
+## 3. Responsibilities
+- **Moderators:** Report suspicious activity, initiate account restrictions, and escalate cases.  
+- **Conduct Officers:** Review escalated cases, enforce restrictions, and coordinate with governance.  
+- **Technical Teams:** Perform scans, maintain detection systems, and ensure evidence is securely stored.  
+- **Governance Team:** Review systemic risks and oversee quarterly/annual audits.  
+
+---
+
+## 4. Procedure
 
 ### Detection
 - [ ] Automated scans + moderator reports for suspicious links, credential requests, exploit code.
@@ -38,3 +48,18 @@ Applies to moderators, Conduct Officers, and technical teams.
 ### Audit
 - [ ] Annual penetration testing.  
 - [ ] Quarterly security incident reports.
+
+---
+
+### Workflow Diagram
+```mermaid
+flowchart TD
+    A[Detection] --> B[Immediate Action]
+    B --> C{Classification}
+    C -->|Minor| D[Advisory Notice]
+    C -->|Moderate| E[Restriction]
+    C -->|Critical| F[Suspension + Law Enforcement]
+    F --> G[Documentation]
+    E --> G
+    D --> G
+    G --> H[Audit & Reports]
