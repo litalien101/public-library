@@ -1,4 +1,4 @@
-# SOP-XX: [Title of Procedure]
+[# SOP-XX: [Title of Procedure]
 
 **Version:** v1.0  
 **Effective Date:** YYYY-MM-DD  
@@ -33,7 +33,18 @@ Step-by-step numbered workflow. Keep it clear and actionable.
 2. **Initial Action:** First step taken by the responsible party.  
 3. **Escalation Path:** Who gets notified, how, and within what timeframe.  
 4. **Documentation:** Where records are kept (e.g., GitHub Issues, Consent Log).  
-5. **Resolution:** Define closure criteria.  
+5. **Resolution:** Define closure criteria.
+---
+### Optional workflow diagram
+```mermaid
+flowchart TD
+    A[Trigger Event] --> B[Initial Action]
+    B --> C{Escalation?}
+    C -- Yes --> D[Notify responsible role]
+    D --> E[Documentation]
+    E --> F[Resolution]
+    C -- No --> F
+```
 
 ---
 
